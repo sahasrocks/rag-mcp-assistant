@@ -39,39 +39,3 @@ def chat():
     answer = agent.handle_query(query, session_id)
 
     return jsonify({"answer": answer})
-# @api_bp.route("/chat", methods=["POST"])
-# def chat():
-#     data = request.json
-#     query = data.get("query")
-
-#     if not query:
-#         return jsonify({"error": "No query provided"}), 400
-
-#     answer = agent.handle_query(query)
-
-#     return jsonify({"answer": answer})
-# @api_bp.route("/chat", methods=["POST"])
-# def chat():
-#     data = request.json
-#     query = data.get("query")
-
-#     relevant_chunks = vector_store.search(query)
-#     context = "\n\n".join(relevant_chunks)
-
-#     prompt = f"""
-# You are a senior system design expert.
-
-# Use the provided context to answer the question clearly.
-
-# Context:
-# {context}
-
-# Question:
-# {query}
-
-# Answer:
-# """
-
-#     answer = generate_response(prompt)
-
-#     return jsonify({"answer": answer})

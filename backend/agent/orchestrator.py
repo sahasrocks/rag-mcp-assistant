@@ -134,44 +134,7 @@ class Agent:
 
         save_message(session_id, "assistant", response)
         return response
-    # def handle_query(self, query, session_id="default"):
-
-    #     # Save user message
-    #     save_message(session_id, "user", query)
-
-    #     # Load memory
-    #     history = get_conversation_history(session_id)
-
-    #     history_text = ""
-    #     for msg in history:
-    #         history_text += f"{msg.role.upper()}: {msg.message}\n"
-
-    #     decision = self.decide(query)
-
-    #     if decision == "direct":
-    #         response = self.handle_direct(query, history_text)
-
-    #     elif decision in self.mcp.tools:
-    #         tool_result = self.mcp.call_tool(decision, query)
-
-    #         final_prompt = f"""
-    # Conversation History:
-    # {history_text}
-
-    # Tool Result:
-    # {tool_result}
-
-    # Provide final answer:
-    # """
-    #         response = generate_response(final_prompt)
-
-    #     else:
-    #         response = self.handle_direct(query, history_text)
-
-    #     # Save assistant reply
-    #     save_message(session_id, "assistant", response)
-
-    #     return response
+    
 
     def handle_direct(self, query, history_text=""):
         prompt = f"""
