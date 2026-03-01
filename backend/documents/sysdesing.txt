@@ -1,0 +1,103 @@
+From Wikipedia, the free encyclopedia
+icon
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.
+Find sources: "Systems design" – news · newspapers · books · scholar · JSTOR (April 2013) (Learn how and when to remove this message)
+The basic study of system design is the understanding of component parts and their subsequent interaction with one another.[1]
+
+Systems design has appeared in a variety of fields, including aeronautics,[2] sustainability,[3] computer/software architecture,[4] and sociology.[5]
+
+Product development
+If the broader topic of product development "blends the perspective of marketing, design, and manufacturing into a single approach to product development,"[6] then design is the act of taking the marketing information and creating the design of the product to be manufactured.
+
+Thus in product development, systems design involves the process of defining and developing systems, such as interfaces and data, for an electronic control system to satisfy specified requirements. Systems design could be seen as the application of systems theory to product development. There is some overlap with the disciplines of systems analysis, systems architecture and systems engineering.[7][8][9]
+
+Physical design
+The physical design relates to the actual input and output processes of the system. This is explained in terms of how data is input into a system, how it is verified/authenticated, how it is processed, and how it is displayed. In physical design, the following requirements about the system are decided.
+
+Input requirement,
+Output requirements,
+Storage requirements,
+Processing requirements,
+System control and backup or recovery.[10]
+Put another way, the physical portion of system design can generally be broken down into three sub-tasks:
+
+User Interface Design
+Data Design
+Process Design
+Architecture design
+Designing the overall structure of a system focuses on creating a scalable, reliable, and efficient system. For example, services like Google, Twitter, Facebook, Amazon, and Netflix exemplify large-scale distributed systems. Here are key considerations:
+
+Functional and non-functional requirements
+Capacity estimation
+Usage of relational and/or NoSQL databases
+Vertical scaling, horizontal scaling, sharding
+Load balancing
+Primary-secondary replication
+Cache and CDN
+Stateless and Stateful servers
+Datacenter georouting
+Message Queue, Publish-Subscribe Architecture
+Performance Metrics Monitoring and Logging
+Build, test, configure deploy automation
+Finding single point of failure
+API Rate Limiting
+Service Level Agreement
+Machine learning systems design
+Machine learning systems design focuses on building scalable, reliable, and efficient systems that integrate machine learning (ML) models to solve real-world problems. ML systems require careful consideration of data pipelines, model training, and deployment infrastructure. ML systems are often used in applications such as recommendation engines, fraud detection, and natural language processing.
+
+Key components to consider when designing ML systems include:
+
+Problem Definition: Clearly define the problem, data requirements, and evaluation metrics. Success criteria often involve accuracy, latency, and scalability.[11]
+Data Pipeline: Build automated pipelines to collect, clean, transform, and validate data.[12]
+Model Selection and Training: Choose appropriate algorithms (e.g., linear regression, decision trees, neural networks) and train models using frameworks like TensorFlow or PyTorch.
+Deployment and Serving: Deploy trained models to production environments using scalable architectures such as containerized services (e.g., Docker and Kubernetes).[13]
+Monitoring and Maintenance: Continuously monitor model performance, retrain as necessary, and ensure data drift is addressed.[14]
+Designing an ML system involves balancing trade-offs between accuracy, latency, cost, and maintainability, while ensuring system scalability and reliability. The discipline overlaps with MLOps, a set of practices that unifies machine learning development and operations to ensure smooth deployment and lifecycle management of ML systems.
+
+See also
+Arcadia (engineering)
+Architectural pattern (computer science)
+Configuration design
+Electronic design automation (EDA)
+Electronic system-level (ESL)
+Embedded system
+Graphical system design
+Hypersystems
+Modular design
+Morphological analysis (problem-solving)
+Systems analysis and design
+SCSD (School Construction Systems Development) project
+System information modelling
+System development life cycle (SDLC)
+System engineering
+System thinking
+TRIZ
+References
+ Papanek, Victor J. (1984) [1972]. Design for the Real World: Human Ecology and Social Change (2nd ed.). Chicago: Academy Chicago. p. 276. ISBN 0897331532. OCLC 12343986.
+ Defoort, Sebastien; Balesdent, M.; Klotz, Patricia; Schmollgruber, Peter; Morio, Jerome; Hermetz, J.; Blondeau, Christophe; Bérend, Nicolas; Carrier, Gérald; Bailly, Didier (2012). "Multidisciplinary Aerospace System Design: Principles, Issues and Onera Experience". AerospaceLab Journal (4).
+ Blizzard, Jacqualyn; Klotz, Leidy (2012). "A framework for sustainable whole systems design". R Design Studies. 33 (5): 456–479. doi:10.1016/j.destud.2012.03.001.
+ Lukosh, Heidi; Bekebrede, Geertje; Kurapati, Shalini; Lukosch, Stephan (2018). "A Scientific Foundation of Simulation Games for the Analysis and Design of Complex Systems". Simulation & Gaming. 49 (3): 279–314. doi:10.1177/1046878118768858. PMC 6187265. PMID 30369775.
+ Werner, Ulrich (September 1987). "Critical heuristics of social systems design". European Journal of Operational Research. 31 (3): 276-283. doi:10.1016/0377-2217(87)90036-1.
+ Ulrich, Karl T.; Eppinger, Steven D. (2000). Product Design and Development (Second ed.). Boston: Irwin McGraw-Hill.
+ Public Domain This article incorporates public domain material from Federal Standard 1037C. General Services Administration. Archived from the original on 2022-01-22.
+ Public Domain This article incorporates public domain material from Dictionary of Military and Associated Terms. United States Department of Defense.
+ Cardenas, IC; Kozine, I (2025). "Customizing an Approach to Analyze an Underspecified Socio-Technical System". Engineering Management Journal: 1–20. doi:10.1080/10429247.2025.2502690. This article incorporates text from this source, which is available under the CC BY 4.0 license.
+ Arden, Trevor (1991). Information technology applications. London: Pitman. ISBN 978-0-273-03470-4.
+ Sorvisto, Dayne (2023). MLOps Lifecycle Toolkit: A Software Engineering Roadmap for Designing, Deploying, and Scaling Stochastic Systems. Apress. ISBN 978-1-4842-9641-7.
+ Polyzotis, Neoklis (2017). "Data Management Challenges in Production Machine Learning". Proceedings of the 2017 ACM International Conference on Management of Data. pp. 1723–1726. doi:10.1145/3035918.3054782. ISBN 978-1-4503-4197-4.
+ Huyen, Chip (2022). Designing Machine Learning Systems. O'Reilly Media. ISBN 978-1-098-10796-3.
+ "Machine Learning at Scale: Challenges and Best Practices". Google Cloud Blog. 2020.
+Further reading
+Bentley, Lonnie D.; Dittman, Kevin C.; Whitten, Jeffrey L. (2004) [1986]. System analysis and design methods.
+Churchman, C. West (1971). The Design of Inquiring Systems: Basic Concepts of Systems and Organization. New York: Basic Books. ISBN 0-465-01608-1.
+Gosling, William (1962). The design of engineering systems. New York: Wiley.
+Hawryszkiewycz, Igor T. (1994). Introduction to system analysis and design. Prentice Hall PTR.
+Levin, Mark S. (2015). Modular system design and evaluation. Springer.
+Maier, Mark W.; Rechtin, Eberhardt (2000). The Art of System Architecting (Second ed.). Boca Raton: CRC Press.
+J. H. Saltzer; D. P. Reed; D. D. Clark (1 November 1984). "End-to-end arguments in system design" (PDF). ACM Transactions on Computer Systems. 2 (4): 277–288. doi:10.1145/357401.357402. ISSN 0734-2071. S2CID 215746877. Wikidata Q56503280.
+Whitten, Jeffrey L.; Bentley, Lonnie D.; Dittman, Kevin C. (2004). Fundamentals of system analysis and design methods.
+External links
+
+Look up systems design in Wiktionary, the free dictionary.
+Interactive System Design. Course by Chris Johnson, 1993
+[1] Course by Prof. Birgit Weller, 2020

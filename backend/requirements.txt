@@ -1,0 +1,8 @@
+flask
+faiss-cpu
+numpy
+requests
+sqlalchemy 
+psycopg2-binary 
+python-dotenv
+pypdf
